@@ -8,12 +8,6 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-
-    # pets => {
-    #   fishes:
-    #     [fish1[name=, mood=]],
-    #     [fish2[name=, mood=]],
-    #   dogs[dog1[name=, mood=]]}
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
